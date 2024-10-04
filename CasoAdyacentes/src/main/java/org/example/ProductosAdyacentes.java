@@ -62,7 +62,7 @@ public class ProductosAdyacentes {
                     break;
                 }
             } catch (InputMismatchException e) {
-                System.out.println("Error: Se ha ingresado un valor no numérico. Por favor, ingrese un número entero.");
+                System.out.println("Error: Se ha ingresado un valor no valido. Por favor, ingrese un número entero.");
                 scanner.next(); // Limpiar el buffer
             }
         }
@@ -78,7 +78,7 @@ public class ProductosAdyacentes {
                     arreglo[i] = scanner.nextInt();
                     break;
                 } catch (InputMismatchException e) {
-                    System.out.println("Error: Se ha ingresado un valor no numérico. Por favor, ingrese un número entero.");
+                    System.out.println("Error: Se ha ingresado un valor no valido. Por favor, ingrese un número entero.");
                     scanner.next(); // Limpiar el buffer
                 }
             }
