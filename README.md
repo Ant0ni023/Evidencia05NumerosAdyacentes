@@ -1,4 +1,4 @@
-#Proyecto: Mayor Producto de Números Adyacentes
+# PROYECTO: MAYOR PRODUCTO DE NÚMEROS ADYACENTES
 
 Este proyecto implementa un método en Java que, dado un arreglo de enteros, encuentra el mayor producto de números adyacentes. La solución incluye gestión de errores con excepciones y pruebas unitarias con JUnit 5.
 
